@@ -1,0 +1,308 @@
+.desktop{
+    position: relative;
+    height: 1236px;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 80px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: grey;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.button{
+    text-decoration-line: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 10px 18px;
+    background-color: #7f56d9;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.section{
+    gap: 24px;
+    align-items: center;
+    
+}
+
+h1{   
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    line-height: 72px;
+    text-align: center;
+}
+
+.fancy{
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    margin-left: 25%;
+    margin-right: 30%;
+    font-family: 'Inter', sans-serif;
+    padding-left: 4%;
+}
+
+.mac{
+    position: absolute;
+height: 448.5px;
+left: 25%;
+top: 400px;
+
+}
+
+.bottom{
+  position:absolute;
+  bottom: 0;
+  height: 104px;
+  padding: 96px 180px;  
+  
+}
+
+.text{
+    text-align: center;
+    font-size: 16px;
+    height: 60px;
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    padding-left: 15%;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+contact{
+    margin-left: 110%;
+}
+
+@media screen and (max-width:800px){
+
+    .desktop{
+        position: relative;
+        height: 1024px;
+        background-color: white;
+    }
+    
+    nav{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    } 
+
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px 12px;
+        color: grey;
+        text-decoration: none;
+        text-align: left;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .mac{
+        top: 255px;
+        left: 0%;
+        
+        
+    }
+
+    
+    
+    .section{
+        padding-left: 0px;
+        gap: 24px;
+        align-items: center;
+    }
+
+    h1{   
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        line-height: 72px;
+    }
+
+    .fancy{
+        height: 30px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #667085;
+        font-family: 'Inter', sans-serif;
+        margin: 0%;
+    }
+
+    .bottom{
+        position:absolute;
+        bottom: 0;
+        height: px;
+        padding: 96px 0px;  
+        
+      }
+
+      .text{
+        text-align: center;
+        font-size: 16px;
+        height: 60px;
+        color: #667085;
+        font-family: 'Inter', sans-serif;
+        justify-content: space-between;
+        padding-left: 10%;
+    
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    contact{
+        margin-left: 98%;
+    }
+}
+
+    @media screen and (max-width:500px){
+
+        .desktop{
+            position: relative;
+            height: 724px;
+            background-color: white;
+        }
+        
+        nav{
+            display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        } 
+
+        nav img{
+            width: 60px;
+        }
+
+        .button{
+            text-decoration-line: none;
+            box-sizing: border-box;
+            border: 1px solid;
+            padding: 5px 10px;
+            background-color: #7f56d9;
+            border-radius: 8px;
+            box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            font-size: 10px;
+        }
+    
+        nav ul li{
+            
+            color: grey;
+            align-items: center;
+            text-align: center;
+            font-size: 10px;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .mac{
+            top: 255px;
+            left: 0%; 
+            align-items: center;
+        }
+
+        .mac img{
+            width: 400px;
+
+        }
+    
+        
+        
+        .section{
+            padding-left: 0px;
+            gap: 24px;
+            align-items: center;
+        }
+    
+        h1{   
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Inter', sans-serif;
+            line-height: 50px;
+        }
+    
+        .fancy{
+            height: 30px;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #667085;
+            font-family: 'Inter', sans-serif;
+            margin: 0%;
+        }
+    
+        .bottom{
+            position:absolute;
+            bottom: 0;
+            height: 75px;
+            padding: 96px 0px;  
+            
+          }
+    
+          .text{
+            text-align: center;
+            font-size: 16px;
+            height: 60px;
+            color: #667085;
+            font-family: 'Inter', sans-serif;
+            justify-content: space-between;
+            padding-left: 10%;
+        
+        }
+        
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+        }
+        .logo picture img{
+            width: 20px;
+        }
+    
+        contact{
+            margin-left: 96%;
+        }
+        contact img{
+            width: 30px;
+        }
+
+}
+
+
